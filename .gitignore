@@ -2,3 +2,4 @@
 *
 # Except itself
 !.gitignore
+!ajax/.gitkeep
