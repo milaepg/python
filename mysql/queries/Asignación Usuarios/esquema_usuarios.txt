@@ -1,0 +1,14 @@
+insert into esquema_usuarios.usuarios(nombre,apellido,correo_electronico) values('Claudio','Rodriguez','claudio.potito@correo.com');
+insert into esquema_usuarios.usuarios(nombre,apellido,correo_electronico) values('Camila','Prado','camila.potito@correo.com');
+insert into esquema_usuarios.usuarios(nombre,apellido,correo_electronico) values('Rosalia','Motomami','rosalia.potito@correo.com');
+commit;
+select * from esquema_usuarios.usuarios; 
+select * from esquema_usuarios.usuarios where correo_electronico = 'claudio.potito@correo.com';
+select * from esquema_usuarios.usuarios where Identificacion = 3; 
+update esquema_usuarios.usuarios set apellido = 'Panqueques' where Identificacion = 3; 
+commit;
+delete from esquema_usuarios.usuarios where Identificacion = 2; 
+commit;
+select * from esquema_usuarios.usuarios order by nombre;
+select * from esquema_usuarios.usuarios order by nombre desc;
+  
