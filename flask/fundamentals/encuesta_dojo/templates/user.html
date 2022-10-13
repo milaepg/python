@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+     <head>
+          <meta charset="UTF-8">
+          <title>Dojo Survey Index</title>
+          <style>
+               button {
+                  background-color: lightblue;
+                  box-shadow: 10px black;
+                  color: white;
+                  border: 1px solid black;     
+               }
+          </style>
+     </head>
+     <body>
+          <h1><u>Submitted Info</u></h1>
+          <p>Name: {{ name_on_template }}</p>
+          <p>Dojo Location: {{ location_on_template }}</p>
+          <p>Favorite Language: {{ language_on_template }}</p>
+          <p>Favorite Color: {{ color_on_template }}</p>
+          <p>Comment: {{ message_on_template }}</p>
+
+          <div>
+               <button>Go Back</button>
+          </div>
+     </body>        
+</html>

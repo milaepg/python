@@ -1,0 +1,11 @@
+button {
+    display: inline-block;
+    background-color: lightblue;
+    box-shadow: 10px black;
+    color: white;
+    border: 1px solid black;
+}
+
+.button {
+    text-align: center;     
+}

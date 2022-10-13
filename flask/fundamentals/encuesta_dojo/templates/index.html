@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+     <head>
+          <meta charset="UTF-8">
+          <title>Dojo Survey Index</title>
+          <link rel="stylesheet" type="text/css" href="style.css">
+         
+     </head>
+     <body>
+          <Div>
+               <form action="/result" method="post">
+                    <p>Nombre: <input type="text" name="name"></p>
+                    
+                    <p>Dojo Location: 
+                         <select name="location">
+                              <option>Santiago</option>
+                              <option>Arica</option>
+                              <option>Puerto Montt</option>     
+                         </select>
+                    </p>
+                    
+                    <p>Lenguaje favorito: 
+                         <select name="language">
+                              <option>Python</option>
+                              <option>C++</option>
+                              <option>Javascript</option>
+                         </select>
+                    </p>   
+                    <p>Color favorito: 
+                         <input type="radio" name="color" value="red" checked>rojo
+                         <input type="radio" name="color" value="green">verde
+                         <input type="radio" name="color" value="yellow">amarillo 
+                    </p>
+                    <p>Comentar (opcional): </p> 
+                    <textarea name="message" rows="10" cols="100">
+                    </textarea>
+                    
+                    <div>
+                         <button class="button">Button</button>
+                    </div>
+                    
+                    
+               </form>
+          </Div>
+     </body>
+</html>
